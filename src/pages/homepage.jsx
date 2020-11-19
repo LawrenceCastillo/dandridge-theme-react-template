@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './homepage.css'
+import './homepage.scss'
 
 export const Homepage = () => (
   <div>
