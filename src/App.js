@@ -48,7 +48,7 @@ class App extends React.Component {
               content={personal.keywords} />
           </Helmet>
 
-          <Homepage />
+          <Homepage personal={personal} />
         </div>
 
         : <div className='loading'> Loading... </div>
