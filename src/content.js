@@ -10,7 +10,7 @@ export const user = {
         email: '',
         domain: '',
         keywords: 'xiomara tejera, actor, actress, new york city, new york, film, tv, commercial, movie',
-        background_url: '/images/xiomara-tejera-actor-actress-new-york-city2.jpg',
+        background_url: '/images/xiomara-tejera-actor-actress-new-york-city.jpg',
         location: 'NYC',
         headline: 'New York City Actor',
         short_bio: '',
