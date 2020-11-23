@@ -1,9 +1,13 @@
 
 
-.header {
+.header-container {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
 
   .header-bg {
     display: flex;
+    flex: 5;
     flex-direction: column;
     justify-content: center;
     align-content: flex-start;
@@ -11,9 +15,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right top;
-    border: 2rem solid white;
-    border-radius: 50px;
-    //box-shadow: 0px 0px 20px rgba(0, 0, 80, .1);
+    min-width: 20rem;
     margin: 0;
     padding-left: 10vw;
     padding-right: 1rem;
@@ -30,6 +32,23 @@
       font-size: 1.2rem;
       font-weight: 500;
       color: white;
+    }
+  }
+  .header-ataglance {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 1;
+    //background-color: #272020;
+    background-color: #f5f5f7;
+    color: #333;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    div {
+      text-transform: capitalize;
+      margin: 1rem;
     }
   }
 }

@@ -1,0 +1,24 @@
+
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .image-gallery-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 63rem;
+
+    .image-gallery-thumbnail {
+      max-width: 27.6rem;
+      min-width: 20rem;
+      //max-height: 34rem;
+      object-fit: contain;
+      padding: .5rem;
+    }
+  }
+}
