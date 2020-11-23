@@ -3,7 +3,7 @@
 .header-container {
   display: flex;
   flex-direction: column;
-  height: 85vh;
+  min-height: 85vh;
 
   .header-bg {
     display: flex;
@@ -45,6 +45,7 @@
     padding: 2rem;
     font-size: 1.2rem;
     font-weight: 300;
+    margin-bottom: 2rem;
 
     div {
       text-transform: capitalize;

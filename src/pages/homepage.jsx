@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { LayoutFullBackgroundImage } from '../layouts/full_background_image/full_bg_img'
-//import { ImageGallery } from '../layouts/image_gallery/image_gallery'
+import { ImageGallery } from '../layouts/image_gallery/image_gallery'
 
 import './homepage.scss'
 
@@ -20,7 +20,7 @@ export const Homepage = props => {
         lname={lname}
         headline={headline} 
       />
-      {/* <ImageGallery /> */}
+      <ImageGallery />
     </div>
   )
 }

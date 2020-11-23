@@ -4,19 +4,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 
   .image-gallery-container {
     display: flex;
-    flex: 1;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 63rem;
 
     .image-gallery-thumbnail {
-      max-width: 27.6rem;
-      min-width: 20rem;
-      //max-height: 34rem;
+      max-width: 27.5rem;
+      min-width: 12rem;
       object-fit: contain;
       padding: .5rem;
     }
