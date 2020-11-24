@@ -13,10 +13,10 @@
     align-items: center;
 
     .image-gallery-thumbnail {
-      max-width: 27.5rem;
+      max-width: 24rem;
       min-width: 12rem;
       object-fit: contain;
-      padding: .5rem;
+      margin: .5rem;
     }
   }
 }
