@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Navigation } from '../components/navigation/navigation'
 import { LayoutFullBackgroundImage } from '../layouts/full_background_image/full_bg_img'
 import { ImageGallery } from '../layouts/image_gallery/image_gallery'
 
@@ -13,6 +14,7 @@ export const Homepage = props => {
   const headline = props.personal.headline
   return (
     <div className='header'>
+      <Navigation />
       <LayoutFullBackgroundImage 
         bg_img={bg_img} 
         name={name}
