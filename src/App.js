@@ -2,6 +2,8 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import { Homepage } from './pages/homepage'
+import { Navigation } from './components/navigation/navigation'
+import { Footer } from './components/footer/footer'
 
 import { user } from './content.js'
 
@@ -47,8 +49,11 @@ class App extends React.Component {
               name="keywords" 
               content={personal.keywords} />
           </Helmet>
+          <Navigation />
 
           <Homepage personal={personal} />
+
+          <Footer />
         </div>
 
         : <div className='loading'> Loading... </div>
