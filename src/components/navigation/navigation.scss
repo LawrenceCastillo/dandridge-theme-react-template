@@ -4,26 +4,26 @@
   z-index: 100;
   position: fixed;
   width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  justify-content: flex-end;
   align-items: flex-end;
 
   .navigation-container {
     display: flex;
     flex-direction: column;
-    margin-top: 30vh;
-    margin-right: 2rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 17.5vh;
+    margin-right: 3vw;
     border: .1rem solid white;
-    border-radius: 40px;
-    background-color: rgba(0,0,0,.1);
+    border-radius: 1.4rem;
+    background-color: rgba(255,255,255,.9);
+    box-shadow: .1rem .1rem .4rem rgba(80, 80, 80, .24);
 
     .navigation-link {
-      padding: 1.2rem 1.2rem;
-      //box-shadow: .1rem .1rem .4rem rgba(80, 80, 80, .1);
-      text-transform: uppercase;
-      font-size: 1.6rem;
-      color: rgba(0, 0, 0, 1);
+      padding: 1rem 1.2rem;
       transition: all 0.3s ease-in-out;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;

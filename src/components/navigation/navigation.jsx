@@ -15,7 +15,7 @@ export const Navigation = () => (
         offset={-70}
         duration={500}
       >
-        <span role='img' aria-label='home'>🏠</span>
+        <img aria-label='home' src='/images/icons/home.svg' />
       </Link>
       <Link
         className='navigation-link'
@@ -26,7 +26,7 @@ export const Navigation = () => (
         offset={-70}
         duration={500}
       >
-        <span role='img' aria-label='media'>📷</span>
+        <img aria-label='media' src='/images/icons/camera.svg' />
       </Link>
       <Link
         className='navigation-link'
@@ -37,7 +37,7 @@ export const Navigation = () => (
         offset={-70}
         duration={500}
       >
-        <span role='img' aria-label='work'>💼</span>
+        <img aria-label='work' src='/images/icons/briefcase.svg' />
       </Link>
     </div>
   </nav>

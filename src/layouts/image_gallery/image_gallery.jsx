@@ -8,10 +8,12 @@ const photos = [
   '/images/album/xiomara-tejera-actor-actress-new-york-city-4.jpeg',
 ]
 
-export const ImageGallery = () => (
-  <div className='image-gallery' >
-    <div className='image-gallery-container' >
-      {photos.map(i => <img alt='headshot' className='image-gallery-thumbnail' src={i} /> )}
+export const ImageGallery = ({ className }) => (
+  <div className={className}>
+    <div className='image-gallery' >
+      <div className='image-gallery-container' >
+        {photos.map(i => <img alt='headshot' className='image-gallery-thumbnail' src={i} /> )}
+      </div>
     </div>
   </div>
 )

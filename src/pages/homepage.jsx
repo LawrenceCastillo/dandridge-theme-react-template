@@ -21,7 +21,9 @@ export const Homepage = props => {
         lname={lname}
         headline={headline} 
       />
-      <ImageGallery />
+      <ImageGallery 
+        className='media'
+      />
     </div>
   )
 }
