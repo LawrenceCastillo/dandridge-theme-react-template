@@ -12,8 +12,9 @@ export const Homepage = props => {
   const lname = props.personal.lname
   const headline = props.personal.headline
   return (
-    <div className='header'>
+    <div className='home1'>
       <LayoutFullBackgroundImage 
+        className='home'
         bg_img={bg_img} 
         name={name}
         fname={fname}

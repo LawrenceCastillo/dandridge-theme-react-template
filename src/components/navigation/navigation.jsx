@@ -1,13 +1,44 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 import './navigation.scss'
 
 export const Navigation = () => (
-  <div className='navigation' >
+  <nav className='navigation' >
     <div className='navigation-container' >
-      <div className='navigation-link' >Home</div>
-      <div className='navigation-link' >Media</div>
-      <div className='navigation-link' >Work</div>
+      <Link
+        className='navigation-link'
+        activeClass='active'
+        to='home'
+        spy='true'
+        smooth='true'
+        offset={-70}
+        duration={500}
+      >
+        <span role='img' aria-label='home'>🏠</span>
+      </Link>
+      <Link
+        className='navigation-link'
+        activeClass='active'
+        to='media'
+        spy='true'
+        smooth='true'
+        offset={-70}
+        duration={500}
+      >
+        <span role='img' aria-label='media'>📷</span>
+      </Link>
+      <Link
+        className='navigation-link'
+        activeClass='active'
+        to='work'
+        spy='true'
+        smooth='true'
+        offset={-70}
+        duration={500}
+      >
+        <span role='img' aria-label='work'>💼</span>
+      </Link>
     </div>
-  </div>
+  </nav>
 )
