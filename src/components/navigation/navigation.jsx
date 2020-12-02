@@ -39,6 +39,11 @@ export const Navigation = () => (
       >
         <img aria-label='work' src='/images/icons/briefcase.svg' />
       </Link>
+      <div className='navigation-link'>
+        <a href={`mailto:${'email@example.com'}`} rel="noopener noreferrer" > 
+          <img aria-label='email' src='/images/icons/mail.svg' />
+        </a>
+      </div>
     </div>
   </nav>
 )
