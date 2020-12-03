@@ -2,48 +2,37 @@
 
 
 .textandlist-container {
+  min-width: 100vw;
+  min-height: 82vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   flex: 1;
   margin-bottom: 3rem;
 
-  .textandlist-col1 {
+  .textandlist-body {
     flex: 1;
-    padding: 1rem;
-    max-width: 36rem;
+    max-width: 52rem;
     min-width: 20rem;
+    color: #8C493A;
+    padding: 2rem;
 
-    .textandlist-h2 {
-      font-size: 3.6rem;
+    .textandlist-p {
+      font-size: 2.4rem;
+      line-height: 3.2rem;
       font-weight: 300;
     }
-    .textandlist-body {
-      padding-left: .2rem;
+    .textandlist-res {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      font-weight: 300;
+      text-decoration: none;
+      color: #D97D48;
 
-      .textandlist-p {
-        font-size: 1.4rem;
-        line-height: 2rem;
-        font-weight: 300;
-      }
-      .textandlist-res {
-        color: #D97D48;
-        font-size: 1.4rem;
-        line-height: 2rem;
-        font-weight: 300;
-        text-decoration: none;
-
-        :hover {
-          cursor: pointer;
-        }
+      :hover {
+        cursor: pointer;
       }
     }
-  }
-  .textandlist-col2 {
-    flex: 1;
-    padding: 1rem;
-    max-width: 36rem;
-    min-width: 20rem;
   }
 }

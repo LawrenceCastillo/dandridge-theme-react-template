@@ -1,13 +1,21 @@
 
 
 .reel {
-  background-color: black;
+  min-width: 100vw;
+  min-height: 82vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
   margin-bottom: 3rem;
+  background-color: black;
 
   .reel-container {
-      margin: auto;
-      padding: 1rem;
-      max-width: 74rem;
-      min-width: 20rem;
+    flex: 1;
+    margin: auto;
+    padding: 2rem;
+    max-width: 74rem;
+    min-width: 20rem;
   }
 }
