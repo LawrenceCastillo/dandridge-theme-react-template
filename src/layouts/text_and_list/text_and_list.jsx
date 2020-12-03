@@ -1,4 +1,5 @@
 import React from 'react'
+import YouTube from 'react-youtube'
 
 import './text_and_list.scss'
 
@@ -20,7 +21,17 @@ export const LayoutTextAndList = ({ className }) => (
         </div>
       </div>
       <div className='textandlist-col2' >
-        2
+        <YouTube 
+          videoId="kZZ-j9RXk0c" 
+          opts={{
+            
+            width: '100%',
+            playerVars: {
+              autoplay: 1,
+            }
+          }} 
+          onReady={e => e.target.pauseVideo()} 
+        />
       </div>
     </div>
   </div>
