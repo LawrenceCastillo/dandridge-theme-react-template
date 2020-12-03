@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  margin: 2rem;
+  margin: 2rem 2rem 3rem 2rem;
 
   .textandlist-col1 {
     flex: 1;
@@ -18,18 +18,22 @@
       font-size: 3.6rem;
       font-weight: 300;
     }
-    .textandlist-p {
-      font-size: 1.4rem;
-      line-height: 2rem;
-      font-weight: 300;
-    }
-    .textandlist-res {
-      color: #D97D48;
-      font-size: 1.4rem;
-      line-height: 2rem;
-      font-weight: 300;
-      text-decoration: none;
-      cursor: pointer;
+    .textandlist-body {
+      padding-left: .2rem;
+
+      .textandlist-p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 300;
+      }
+      .textandlist-res {
+        color: #D97D48;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 300;
+        text-decoration: none;
+        cursor: pointer;
+      }
     }
   }
   .textandlist-col2 {
