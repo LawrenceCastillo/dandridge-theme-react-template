@@ -8,7 +8,7 @@ const photos = [
   // '/images/album/xiomara-tejera-actor-actress-new-york-city-4.jpeg',
 ]
 
-export const ImageGallery = ({ className }) => (
+export const LayoutImageGallery = ({ className }) => (
   <div className={className}>
     <div className='image-gallery' >
       <div className='image-gallery-container' >
