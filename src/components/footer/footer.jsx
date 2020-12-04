@@ -33,5 +33,11 @@ export const Footer = () => (
         />
       </a>
     </div>
+    <a className='template-link' 
+      href='https://github.com/LawrenceCastillo/ada-theme-react-template' 
+      target="_blank" 
+      rel='noopener noreferrer'> 
+        "Dandridge" theme by Lawrence Castillo 
+    </a>
   </div>
 )
