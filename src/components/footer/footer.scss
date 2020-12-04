@@ -1,9 +1,25 @@
 
 
 .footer {
-  min-height: 32vh;
-  background-color: #f5f5f7;
+  width: 100vw;
+  min-height: 54vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .footer-container {
+    flex: 1;
+    max-width: 82vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    a.footer-icon {
+      margin: 1rem;
+    }
+  }
 }
