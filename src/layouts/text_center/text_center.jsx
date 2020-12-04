@@ -2,7 +2,7 @@ import React from 'react'
 
 import './text_center.scss'
 
-export const LayoutTextAndList = ({ className }) => (
+export const LayoutTextCenter = ({ className }) => (
   <div className={className}>
     <div className='textandlist-container' >
       <div className='textandlist-body' >

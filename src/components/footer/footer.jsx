@@ -10,7 +10,7 @@ export const Footer = () => (
     <div className='footer-container'>
       <a 
         className='footer-icon'
-        href='http://example.com/' 
+        href='https://www.instagram.com/thelovelyxiomara/' 
         target="_blank" 
         rel='noopener noreferrer'
       >
@@ -22,7 +22,7 @@ export const Footer = () => (
       </a>
       <a 
         className='footer-icon'
-        href='http://example.com/' 
+        href='https://www.backstage.com/u/Xiomara_Tejera/' 
         target="_blank" 
         rel='noopener noreferrer'
       >
