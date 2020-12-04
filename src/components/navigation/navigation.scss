@@ -17,18 +17,25 @@
     .navigation-link {
       padding: 1rem 1.2rem;
       transition: all 0.3s ease-in-out;
+      cursor: pointer;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
       -ms-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
-
-      :hover {
-        cursor: pointer;
-      }
+    }
+    a.navigation-link {
+      padding: 1rem 1.2rem;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
     }
     div {
       background-color: white;
       border-radius: 1.4rem;
+      border: .1rem solid #D97D48;
     }
   }
 }

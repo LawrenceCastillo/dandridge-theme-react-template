@@ -1,9 +1,8 @@
 import React from 'react'
 
 import { LayoutFullBackgroundImage } from '../layouts/full_background_image/full_bg_img'
-import { LayoutTextAndList } from '../layouts/text_and_list/text_and_list'
+import { LayoutTextAndList } from '../layouts/text_center/text_center'
 import { ImageGallery } from '../layouts/image_gallery/image_gallery'
-import { LayoutReel } from '../layouts/reel/reel'
 
 import './homepage.scss'
 
@@ -23,9 +22,8 @@ export const Homepage = props => {
         lname={lname}
         headline={headline} 
       />
-      <LayoutReel />
-      <LayoutTextAndList className='bio' />
       <ImageGallery className='media' />
+      <LayoutTextAndList className='bio' />
     </div>
   )
 }

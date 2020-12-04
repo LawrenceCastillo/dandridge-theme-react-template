@@ -5,7 +5,7 @@ import './image_gallery.scss'
 const photos = [
   '/images/album/xiomara-tejera-actor-actress-new-york-city-2.jpg',
   '/images/album/xiomara-tejera-actor-actress-new-york-city-3.jpeg',
-  '/images/album/xiomara-tejera-actor-actress-new-york-city-4.jpeg',
+  // '/images/album/xiomara-tejera-actor-actress-new-york-city-4.jpeg',
 ]
 
 export const ImageGallery = ({ className }) => (

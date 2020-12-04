@@ -20,17 +20,22 @@
 
     .textandlist-p {
       font-size: 2.4rem;
-      line-height: 3.2rem;
-      font-weight: 300;
+      line-height: 3.0rem;
+      font-weight: 200;
     }
-    .textandlist-res {
-      font-size: 1.4rem;
-      line-height: 2rem;
-      font-weight: 300;
-      text-decoration: none;
-      color: #D97D48;
-
-      :hover {
+    .textandlist-links {
+      margin-top: 1rem;
+      
+      a.textandlist-a {
+        margin-right: 1rem;
+        // padding: 1rem;
+        font-size: 1.4rem;
+        font-weight: 300;
+        text-decoration: none;
+        color: #D97D48;
+        // background-color: white;
+        // border-radius: 1.2rem;
+        // border: .1rem solid #D97D48;
         cursor: pointer;
       }
     }

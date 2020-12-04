@@ -20,17 +20,6 @@ export const Navigation = () => (
       <Link
         className='navigation-link'
         activeClass='active'
-        to='bio'
-        spy='true'
-        smooth='true'
-        offset={-70}
-        duration={500}
-      >
-        <img aria-label='bio' src='/images/icons/user.svg' />
-      </Link>
-      <Link
-        className='navigation-link'
-        activeClass='active'
         to='media'
         spy='true'
         smooth='true'
@@ -38,6 +27,17 @@ export const Navigation = () => (
         duration={500}
       >
         <img aria-label='media' src='/images/icons/camera.svg' />
+      </Link>
+      <Link
+        className='navigation-link'
+        activeClass='active'
+        to='bio'
+        spy='true'
+        smooth='true'
+        offset={-70}
+        duration={500}
+      >
+        <img aria-label='bio' src='/images/icons/user.svg' />
       </Link>
       <div className='navigation-link'>
         <a href={`mailto:${'email@example.com'}`} rel="noopener noreferrer" > 
