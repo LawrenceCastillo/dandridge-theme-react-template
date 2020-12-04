@@ -1,8 +1,8 @@
 import React from 'react'
 
-import './list.scss'
+import './stacking-list.scss'
 
-export const LayoutList = () => (
+export const LayoutStackList = () => (
   <div className='list'>
     <div className='list-container' >
       <div className='list-item' >
