@@ -2,15 +2,15 @@ import React from 'react'
 
 import './text_center.scss'
 
-export const LayoutTextCenter = ({ className }) => (
+export const LayoutTextCenter = ({ className, long_bio, resume_link, reel_link }) => (
   <div className={className}>
     <div className='textandlist-container' >
       <div className='textandlist-body' >
-        <p className='textandlist-p' >Hi, I'm Xiomara! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p className='textandlist-p' >{long_bio}</p>
         <div className='textandlist-links' >
           <a 
             className='textandlist-a'
-            href='http://example.com/' 
+            href={resume_link} 
             target="_blank" 
             rel='noopener noreferrer'
           >
@@ -18,7 +18,7 @@ export const LayoutTextCenter = ({ className }) => (
           </a> &nbsp;
           <a 
             className='textandlist-a'
-            href='https://www.youtube.com/watch?v=kZZ-j9RXk0c' 
+            href={reel_link} 
             target="_blank" 
             rel='noopener noreferrer'
           >

@@ -53,7 +53,7 @@ class App extends React.Component {
 
           <Homepage personal={personal} />
 
-          <Footer />
+          <Footer social={personal.social} />
         </div>
 
         : <div className='loading'> Loading... </div>

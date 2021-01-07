@@ -13,6 +13,13 @@ export const Homepage = props => {
   const fname = props.personal.fname
   const lname = props.personal.lname
   const headline = props.personal.headline
+  const headshots = props.personal.headshots
+  const long_bio = props.personal.long_bio
+  const resume_link = props.personal.resume_link
+  const reel_link = props.personal.reel_link
+  const age_range = props.personal.age_range
+  const height = props.personal.height
+  const weight = props.personal.weight
   return (
     <div>
       <LayoutFullBackgroundImage 
@@ -23,9 +30,21 @@ export const Homepage = props => {
         lname={lname}
         headline={headline} 
       />
-      <LayoutImageGallery className='media' />
-      <LayoutTextCenter className='bio' />
-      <LayoutStackList />
+      <LayoutImageGallery 
+        className='media'
+        headshots={headshots}
+      />
+      <LayoutTextCenter 
+        className='bio' 
+        long_bio={long_bio}
+        resume_link={resume_link}
+        reel_link={reel_link}
+      />
+      <LayoutStackList 
+        age_range={age_range}
+        height={height}
+        weight={weight}
+      />
     </div>
   )
 }
