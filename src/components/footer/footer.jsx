@@ -24,7 +24,7 @@ export const Footer = ({ social }) => (
       ))}
     </div>
     <a className='template-link' 
-      href='https://github.com/LawrenceCastillo/ada-theme-react-template' 
+      href='https://github.com/LawrenceCastillo/dandridge-theme-react-template' 
       target="_blank" 
       rel='noopener noreferrer'> 
         "Dandridge" theme by Lawrence Castillo 
